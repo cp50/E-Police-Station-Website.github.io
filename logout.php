@@ -1,0 +1,9 @@
+<?php
+if(isset($_SESSION['userid']))
+   {
+       $_SESSION['userid']='';
+   }
+   ?>
+<script>
+    location.replace("login.php");
+</script>
